@@ -2,6 +2,5 @@ import pandas as pd
 
 
 def solution(dict):
-    """
-    Enter your code here
-    """
+    d = pd.DataFrame(dict.items())
+    return d
